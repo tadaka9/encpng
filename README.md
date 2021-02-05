@@ -2,7 +2,9 @@
 
 A steganographic library to encrypt files and text in PNG images using CSPRNG random generated pixel colors, shuffled charset for pybase64, and AES-256 with tag (anti-tamper support, and with Intel-NI support on Intel processors) to encrypt or decrypt data (full UTF-8 support).
 
-Available for Linux, MacOS, Raspberry Pi, Windows
+Available for Linux, MacOS, Raspberry Pi, Windows.
+
+<br>If you get memory error from Python, increase Windows paging or Linux swap.<br>
 
 ## INSTALLATION
 ```
